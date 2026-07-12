@@ -161,7 +161,7 @@ if not API_KEY:
     st.error("🚨 Configuration Error: Gemini API Key එක සෙට් කරලා නැහැ. Please add GEMINI_API_KEY to Render Environment Variables.")
 else:
     genai.configure(api_key=API_KEY)
-    model = genai.GenerativeModel('gemini-2.5-flash')
+    model = genai.GenerativeModel('gemini-2.0-flash')
 
     # Display current active chat's messages
     for msg in st.session_state.chats[current_id]["messages"]:
