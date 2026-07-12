@@ -4,7 +4,7 @@ import os
 import uuid
 
 # Page configurations
-st.set_page_config(page_title="Neshu AI", page_icon="🧠", layout="centered")
+st.set_page_config(page_title="Neshu AI", page_icon="https://raw.githubusercontent.com/https://raw.githubusercontent.com/ViSsapro/neshu-ai/refs/heads/main/1783829782373%7E2.pngViSsapro/neshu-ai/refs/heads/main/1783829782373~2.png", layout="centered")
 
 # --- DARK MODE & STYLING CSS ---
 st.markdown(
@@ -77,7 +77,8 @@ current_id = st.session_state.current_chat_id
 
 # --- SIDEBAR MENU SYSTEM ---
 with st.sidebar:
-    st.markdown("# 🧠 Neshu AI")
+    st.image("https://raw.githubusercontent.com/https://raw.githubusercontent.com/ViSsapro/neshu-ai/refs/heads/main/1783829782373%7E2.pngViSsapro/neshu-ai/refs/heads/main/1783829782373~2.png", width=80)
+st.markdown("# Neshu AI")
     st.markdown("---")
     
     # New Chat Button
